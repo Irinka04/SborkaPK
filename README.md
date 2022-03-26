@@ -1,1 +1,1 @@
-# SborkaPK
+Верстка страницы. HTML. CSS, JS
