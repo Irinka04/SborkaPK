@@ -1,0 +1,95 @@
+.header {
+    max-width: 192rem;
+    margin: 0 auto;
+  
+}
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.8rem 11rem 3.8rem 8rem;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    @media (max-width:1530px) {
+        padding: 3rem 5rem 3rem 2rem;
+        
+    }
+    @media (max-width:1300px) {
+        padding: 3rem 5rem 3rem 2rem;
+        
+    }
+    @media (max-width:850px) {
+        padding: 3rem 2rem 3rem 2rem;
+    }
+    @media (max-width:768px) {
+        position: fixed;
+        z-index: 20;
+        background-color: black;
+        width: 100%;
+        padding: 0px 2rem;
+        height: 60px;
+        top: 0;
+        left: 0;
+    }
+
+}
+.header__logo {
+    display: block;
+    width: 40px;
+height: 40px;
+@media (max-width:768px) {
+    margin-right: 3rem;
+}
+}
+
+.header__nav {
+    @media (max-width:768px) {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
+.header__nav>a{
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    @media (min-width:767.98px) {
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    @media (max-width:768px) {
+        color: #f0f0f0;
+}
+}
+.header__nav>a:not(:last-child){
+    margin-right: 7.1rem;
+    @media (max-width:768px) {
+        margin-right: 1rem;
+}
+}
+.header__button {
+    @media (max-width:768px) {
+        display: none;
+    }
+}
+.button {
+    border-radius: 50px;
+    width: 188px;
+height: 44px;
+font-size: 1.6rem;
+color: #FFFFFF;
+background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+@media (min-width:767.98px) {
+    &:hover{
+        background: linear-gradient(94.26deg, #d5b0ff 9.51%, #9888ff 90.23%);
+    }
+}
+}

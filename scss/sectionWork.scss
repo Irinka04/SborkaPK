@@ -1,0 +1,139 @@
+.main__work {
+    margin: 0 3.2rem;
+    margin-bottom: 20rem;
+    @media (min-width:767.98px)and(max-width:1100px) {
+        margin-top: -10rem;
+    }
+}
+.work {
+}
+.container {
+}
+.work__wrap {
+    position: relative;
+}
+.work__head {
+    
+}
+.work__head::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.work__head p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 160%;
+opacity: 0.5;
+max-width: 41.1rem;
+@media (max-width:1100px) {
+    margin: auto;
+    max-width: 50rem;
+    text-align: center;
+    padding-left: 2rem;
+}
+
+}
+.work__logo, .chapter{
+    display: flex;
+    margin-bottom: 4.9rem;
+    @media (max-width:1100px) {
+        justify-content: center;
+    }
+}
+.work__img, .chapter__img {
+    width: 9rem;
+    height: 4.5rem;
+}
+.work__img{
+    margin-right: 2rem;
+    transform: rotate(45deg);
+}
+.block__title, .chapter__title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 4.8rem;
+line-height: 140%;
+}
+.work__title {
+    display: flex;
+    margin-top: 8rem;
+    @media (min-width:767.98px)and(max-width:1100px) {
+        display: grid; 
+        grid-auto-flow: column; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        margin-top: 8rem;
+gap: 20px;
+justify-items: center;
+
+    }
+    @media (max-width:768px) {
+    display: block;
+    }
+}
+.work__title::before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    @media (min-width:1099.98px) {
+    margin-top: 6.5rem;
+    }
+    @media (max-width:1100px) {
+        top: -5rem;
+    }
+}
+.work__title::after{
+    @media (max-width:1100px) {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    bottom: -10rem;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    
+
+    }
+}
+.work__block{
+    max-width: 30.6rem;
+    @media (max-width:768px) {
+        margin: 10rem auto;  
+        text-align: center; 
+
+}
+    
+}
+.work__block:not(:last-child) {
+    margin-right: 1rem;
+    @media (max-width:768px) {
+        margin: 10rem auto;        }
+}
+.work__block h4 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 140%;
+margin-bottom: 6.4rem;
+
+}
+.work__block p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+opacity: 0.5;
+
+}
